@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
+        box-sizing: border-box;        
     }
 
     // font-size: 16px (Desktop)
@@ -32,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
     // REM = 1rem = 16px (font-size)
 
     body {
-        background: var(---background);
+        background: var(--background);
         -webkit-font-smoothing: antialiased;
     }
 
