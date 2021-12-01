@@ -1,0 +1,52 @@
+{
+    // Plugins & Fonts instalados: 
+    // * JetBrains Mono (Fonte) - https://www.jetbrains.com/lp/mono/
+    // * Omni
+    // * Material Icon Theme
+
+    // Configurações da fonte JetBrains Mono
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 26,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.minimap.enabled": false,
+  
+    // Demais configurações
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.startupEditor": "newUntitledFile",
+  
+    "explorer.compactFolders": false,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "extensions.ignoreRecommendations": true,
+  
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+  
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+  
+    "editor.rulers": [80, 120],
+      
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+
+    // Prettier
+    "prettier.tabWidth": 2,
+	  "prettier.semi": true,
+	  "prettier.singleQuote": true,
+	  "prettier.trailingComma": "none",
+	  "prettier.arrowParens": "avoid",
+	  "prettier.endOfLine": "auto",
+}

@@ -1,0 +1,16 @@
+1) Criar o projeto
+yarn create react-app dtmoney --template typescript
+
+2) Remover o arquivo README.md
+
+3) No arquivo 'public/index.html': Excluir a linha 5, 7 a 26, 30 e 32 a 41.
+
+4) Excluir todos os arquivos exceto o 'index.html' da pasta 'public'
+
+5) Na pasta 'src' deixar somente os arquivos: App.tsx, index.tsx e react-app-env.d.ts
+
+6) No arquivo 'src/index.tsx': Excluir a linha 3, 5 e 14 a 17
+
+7) No arquivo 'src/App.tsx': Excluir a linha '1 a 3', '8 a 21' e a última linha. Mudar a linha 'function App' para 'export function App'.
+
+8) No arquivo 'package.json' modificar o "devDependencies"
